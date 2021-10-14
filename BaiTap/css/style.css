@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 900px;
+}
+
+/*Start exercise 1*/
+#main #exercise1 {
+    box-shadow: 5px 10px 10px #000;
+    margin-bottom: 25px;
+}
+
+#exercise1 > #header,
+#exercise1 > #content > .content-left,
+#exercise1 > #content > .content-right,
+#exercise1 > #footer{
+    border: double 5px;
+}
+
+#exercise1 > #header {
+    /*width: 900px;*/
+    height: 120px;
+    background-color: #D3D3D3;
+}
+
+#exercise1 > #content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#exercise1 > #content >.content-left {
+    flex: 1;
+    background-color: #EEE8AA;
+}
+
+#exercise1 > #content > .content-right {
+    flex: 3;
+}
+
+.link-main > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+#exercise1 > #footer {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: #A9A9A9;
+}
+
+#exercise1 > #footer >h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+/*End exeercise 1*/
+/*Start exercise 2*/
+#exercise2 {
+    margin-bottom: 25px;
+}
+
+#header1,
+#nav,
+#footer1,
+#content1 .content-right,
+#content1 .content-left{
+    width: 100%;
+    height: 50px;
+    border: solid 1px;
+}
+
+#exercise2 h1{
+    width: 100%;
+    text-align: center;
+}
+
+#content1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+#content1 > .content-left {
+    flex: 1;
+    height: 300px;
+    line-height: 300px;
+}
+
+#content1 > .content-right {
+    flex: 4;
+    height: 300px;
+    line-height: 300px;
+}
+/*End exercise 2*/
+/*Start exercise 3*/
+#exercise3 h1,
+#exercise3 h2,
+#exercise3 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#header2,
+#slider,
+.small-services,
+#footer2{
+    border: solid 2px;
+}
+
+#exercise3 #header2 {
+    width: 100%;
+    height: 120px;
+    background-color: #C4996C;
+    margin-bottom: 16px;
+}
+
+#exercise3 #slider {
+    width: 100%;
+    height: 400px;
+    background-color: #A8A9AD;
+}
+
+#header2,
+#slider,
+#footer2{
+    display: flex;
+}
+
+.content-top {
+    width: 100%;
+    height: 100px;
+}
+
+.content-top h1 {
+    line-height: 100px;
+    text-align: center;
+    color: #000!important;
+}
+
+.content-bottom {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content2 {
+    width: 100%;
+    height: 700px;
+}
+
+#exercise3 .content{
+    margin: auto;
+}
+
+.small-services {
+    width:  180px;
+    height: 220px;
+    background-color: #A8A9AD;
+    margin: auto 60px;
+    display: flex;
+}
+
+.content-services {
+    height: 75px;
+    margin: auto;
+}
+
+#footer2 {
+    width: 100%;
+    height: 120px;
+    background-color: #115D7F;
+}
+/*End exercise 3*/
+

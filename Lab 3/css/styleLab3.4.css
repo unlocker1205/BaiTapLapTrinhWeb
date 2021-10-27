@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.half-width1 {
+    width: 50%;
+}
+.bg-color-green {
+    background-color: #7ed321;
+}
+
+.font-weigh {
+    font-weight: 900;
+}
+
+.bg-ccc{
+    background-color: #f9f9f9;
+}
+
+.text-green {
+    color: #7ed321;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+}
+
+#main .form {
+    width: calc(100% / 2);
+    height: 100vh;
+    padding: 26px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main .account {
+    width: 100%;
+}
+
+#main .payment .icon,
+#main .account .icon {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+}
+
+#main .payment .input,
+#main .account .input {
+    margin: 16px 0;
+    height: 45px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+#main .payment .input-form,
+#main .account .input-form {
+    border: none;
+    outline: none;
+    height: 100%;
+    padding-left: 8px;
+    width: 140mm;
+}
+
+#main .infor {
+    width: 100%;
+    display: flex;
+}
+
+#main .infor .date-cover,
+#main .infor .birth-cover {
+    display: flex;
+}
+
+#main .infor .gender-items{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+}
+#main .infor .input-date {
+    width: 100%;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+#main .infor .birth-day{
+    margin-right: 12px;
+}
+#main .infor .gender {
+    margin-left: 12px;
+}
+
+#main .payment {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#main .payment .title-payment {
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+#main .payment-cover {
+    width: 100%;
+}
+
+#main .payment .btn-payment {
+    display: inline-flex;
+    width: 100%;
+}
+
+#main .btn-payment .btn {
+    padding: 20px 30px;
+}
+
+#main .end .title {
+    margin-top: 20px;
+}
+

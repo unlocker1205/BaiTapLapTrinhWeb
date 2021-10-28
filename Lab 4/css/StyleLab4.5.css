@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .image {
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

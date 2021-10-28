@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#main .btn.hidden {
+    opacity: 0;
+    cursor: default!important;
+    pointer-events: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/img_1.png");
+}
+
+#main .cover-btn {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#main .cover-btn .btn {
+    width: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}

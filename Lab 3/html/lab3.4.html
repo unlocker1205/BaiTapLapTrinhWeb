@@ -3,72 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../css/styleLab3.4.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../css/styleLab3.4.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
 </head>
 <body>
-    <div id="main">
-        <form action="" class="form">
-            <div class="account">
-                <p class="title-account text-green font-weigh">Account</p>
-                <div class="bg-ccc input">
-                    <span class=""><i class="icon fas fa-user"></i></span>
-                    <input type="text" placeholder="Full Name" class="bg-ccc input-form">
-                </div>
-                <div class="bg-ccc input">
-                    <span class=""><i class="icon fas fa-envelope"></i></span>
-                    <input type="text" placeholder="Email Adress" class="bg-ccc input-form">
-                </div>
-                <div class="bg-ccc input">
-                    <span class=""><i class="icon fas fa-key"></i></span>
-                    <input type="text" placeholder="Password" class="bg-ccc input-form">
+<div id="main">
+    <form action="" class="form">
+        <div class="account">
+            <p class="title-account text-green font-weigh">Account</p>
+            <div class="bg-ccc input">
+                <span class=""><i class="icon fas fa-user ccc"></i></span>
+                <input class="bg-ccc input-form" placeholder="Full Name" type="text">
+            </div>
+            <div class="bg-ccc input">
+                <span class=""><i class="icon fas fa-envelope ccc"></i></span>
+                <input class="bg-ccc input-form" placeholder="Email Adress" type="text">
+            </div>
+            <div class="bg-ccc input">
+                <span class=""><i class="icon fas fa-key ccc"></i></span>
+                <input class="bg-ccc input-form" placeholder="Password" type="text">
+            </div>
+        </div>
+        <div class="infor">
+            <div class="birth-day half-width1">
+                <p class="title-birth text-green font-weigh">Date of Birth</p>
+                <div class="birth-cover">
+                    <input class="bg-ccc input-date" placeholder="DD" type="text">
+                    <input class="bg-ccc input-date" placeholder="MM" type="text">
+                    <input class="bg-ccc input-date" placeholder="YYYY" type="text">
                 </div>
             </div>
-            <div class="infor">
-                <div class="birth-day half-width1">
-                    <p class="title-birth text-green font-weigh">Date of Birth</p>
-                    <div class="birth-cover">
-                        <input type="text" placeholder="DD" class="bg-ccc input-date">
-                        <input type="text" placeholder="MM" class="bg-ccc input-date">
-                        <input type="text" placeholder="YYYY" class="bg-ccc input-date">
-                    </div>
+            <div class="gender half-width1">
+                <p class="title-gender text-green font-weigh">Gender</p>
+                <div class="date-cover">
+                    <input class="bg-ccc gender-items" placeholder="Male" type="text">
+                    <input class="bg-ccc gender-items" placeholder="Female" type="text">
                 </div>
-                <div class="gender half-width1">
-                    <p class="title-gender text-green font-weigh">Gender</p>
-                    <div class="date-cover">
-                        <input type="text" placeholder="Male" class="bg-ccc gender-items">
-                        <input type="text" placeholder="Female" class="bg-ccc gender-items">
+            </div>
+        </div>
+        <div class="payment">
+            <p class="title-payment text-green font-weigh">Payment Details</p>
+            <div class="payment-cover">
+                <div class="btn-payment">
+                    <button class="btn half-width1 bg-color-green border" style="color: #ffffff"><i class="fab fa-cc-visa"></i>
+                        Credit Card
+                    </button>
+                    <button class="btn half-width1 ccc"><i class="fab fa-cc-paypal ccc"></i> Paypal</button>
+                </div>
+                <div class="input bg-ccc">
+                    <span class=""><i class="icon fas fa-credit-card ccc"></i></span>
+                    <input class="bg-ccc input-form" placeholder="Card number" type="text">
+                </div>
+                <div class="btn-payment">
+                    <div class="input half-width1 bg-ccc">
+                        <span class=""><i class="icon fas fa-user ccc"></i></span>
+                        <input class="bg-ccc input-form" placeholder="Card CVC" style="width: 220px" type="text">
+                    </div>
+                    <div class="half-width1"
+                         style="display: inline-flex;/* align-content: center; *//* justify-content: center; */justify-content: center;align-items: center;">
+<!--                        <button class="" style="height: 45px">abc</button>-->
+<!--                        <button class="half-width1" style="height: 45px">gsa</button>-->
+                        <select name="" id="select" style="height: 45px"  class="enter-name font half-width1" >
+                            <option>01 Jan</option>
+                        </select>
+                        <select name="" id="select1" style="height: 45px"  class="enter-name font half-width1">
+                            <option>2015</option>
+                        </select>
                     </div>
                 </div>
             </div>
-            <div class="payment">
-                <p class="title-payment text-green font-weigh">Payment Details</p>
-                <div class="payment-cover">
-                    <div class="btn-payment">
-                        <button class="btn half-width1 bg-color-green" style="color: #ffffff"><i class="fab fa-cc-visa"></i> Credit Card</button>
-                        <button class="btn half-width1"><i class="fab fa-cc-paypal"></i> Paypal</button>
-                    </div>
-                    <div class="input bg-ccc">
-                        <span class=""><i class="icon fas fa-credit-card"></i></span>
-                        <input type="text" placeholder="Card number" class="bg-ccc input-form">
-                    </div>
-                    <div class="btn-payment">
-                        <div class="input half-width1 bg-ccc">
-                            <span class=""><i class="icon fas fa-user"></i></span>
-                            <input type="text" style="width: 220px" placeholder="Card CVC" class="bg-ccc input-form">
-                        </div>
-                        <div class="half-width1" style="display: inline-flex;/* align-content: center; *//* justify-content: center; */justify-content: center;align-items: center;">
-                        <button class="half-width1" style="height: 45px">abc</button>
-                            <button class="half-width1" style="height: 45px">gsa</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="end">
-                <p class="title text-green font-weigh">Term and Conditions</p>
-                <input type="checkbox" class="end-check"> I accept the term and conditions for signing up to this service, and hereby confirm I have read the privacy policy</input>
-            </div>
-        </form>
-    </div>
+        </div>
+        <div class="end ccc">
+            <p class="title text-green font-weigh">Term and Conditions</p>
+            <input class="end-check ccc" type="checkbox"> I accept the term and conditions for signing up to this service,
+            and hereby confirm I have read the privacy policy</input>
+        </div>
+    </form>
+</div>
 </body>
 </html>

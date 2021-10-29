@@ -12,11 +12,19 @@
 }
 
 .font-weigh {
-    font-weight: 900;
+    font-weight: bold;
+}
+
+.ccc {
+    color: #999999!important;
 }
 
 .bg-ccc{
     background-color: #f9f9f9;
+}
+
+.border {
+    border: 1px #111111 solid;
 }
 
 .text-green {
@@ -131,5 +139,11 @@
 
 #main .end .title {
     margin-top: 20px;
+}
+
+.enter-name{
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
 }
 

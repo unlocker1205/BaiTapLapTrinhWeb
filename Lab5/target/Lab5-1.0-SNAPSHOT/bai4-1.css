@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.font {
+    font-weight: bold!important;
+    color: #111!important;
+    opacity: 0.8!important;
+}
+
+.border {
+    border: 1px solid #cccccc;
+}
+
+.bg-white {
+    background-color: white!important;
+}
+
+#main {
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .form {
+    border: 15px solid #cccccc;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 26px 30px;
+}
+
+#main .form .heading {
+    margin: 20px 0;
+}
+
+#main .full-name {
+    margin: 16px 0;
+}
+
+#main .email {
+    margin-right: 15px;
+}
+
+#main .phone {
+    margin-left: 15px;
+}
+
+#main .email,
+#main .phone,
+#main .full-name {
+    background-color: #f7f7f7;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+#main .form .title-email,
+#main .form .title-phone,
+#main .form .title-name {
+    padding: 6px 16px;
+    display: block;
+    background-color: #f7f7f7;
+    font-size: 12px;
+}
+
+#main .form .enter-email,
+#main .form .enter-phone,
+#main .form .enter-name {
+    display: block;
+    border: none;
+    padding: 12px 16px;
+    outline: none;
+    background: #f7f7f7;
+    opacity: 0.4;
+}
+
+#main .email-phone {
+    display: inline-flex;
+}
+
+#main .text {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    padding: 12px 16px;
+    outline: none;
+}
+
+#main .btn {
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}

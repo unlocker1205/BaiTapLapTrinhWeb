@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-image: url("img.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .heading {
+    margin: 16px 0;
+}
+
+#main .form {
+    width: calc(100% / 3);
+    background-color: #ffffff;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main .form .pass,
+#main .form .user {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 16px 18px;
+    box-shadow: 0 0 22px #ccc;
+    margin: 16px 0;
+}
+
+#main .form .btn {
+    width: 50%;
+    box-shadow: 0 10px 22px #cccccc;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #be58d7;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#main .form .or-with {
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.4);
+}
+
+#main .form .icon {
+    margin-bottom: 100px;
+}
+
+#main .form .icon-item {
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+#main .form .icon-item i {
+    font-size: 20px;
+    line-height: 43px;
+}
+
+#main .form .sign-up {
+    text-decoration: none;
+    color: #000000;
+}
